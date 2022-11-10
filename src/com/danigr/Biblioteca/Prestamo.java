@@ -2,27 +2,19 @@ package com.danigr.Biblioteca;
 
 public class Prestamo {
 
-    private String libro;
-    private String usuario;
+    private String id;
     private String fechaPrestamo;
     private String fechaDevolucion;
 
 
-    public String getLibro() {
-        return libro;
+    public String getId() {
+        return id;
     }
 
-    public void setLibro(String libro) {
-        this.libro = libro;
+    public void setId(String id) {
+        this.id = id;
     }
 
-    public String getUsuario() {
-        return usuario;
-    }
-
-    public void setUsuario(String usuario) {
-        this.usuario = usuario;
-    }
 
     public String getFechaPrestamo() {
         return fechaPrestamo;

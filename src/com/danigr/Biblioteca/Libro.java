@@ -4,8 +4,8 @@ public class Libro {
 
     private String titulo;
     private Integer isbn;
-    private String autor;
-    private String genero;
+    private Autor autor;
+    private Genero genero;
     private String fechaPublicacion;
 
 
@@ -25,19 +25,19 @@ public class Libro {
         this.isbn = isbn;
     }
 
-    public String getAutor() {
+    public Autor getAutor() {
         return autor;
     }
 
-    public void setAutor(String autor) {
+    public void setAutor(Autor autor) {
         this.autor = autor;
     }
 
-    public String getGenero() {
+    public Genero getGenero() {
         return genero;
     }
 
-    public void setGenero(String genero) {
+    public void setGenero(Genero genero) {
         this.genero = genero;
     }
 
