@@ -39,4 +39,5 @@ public class Autor {
     public void setLocalidadNacimiento(String localidadNacimiento) {
         this.localidadNacimiento = localidadNacimiento;
     }
+
 }

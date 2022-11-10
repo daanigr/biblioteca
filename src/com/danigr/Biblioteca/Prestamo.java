@@ -39,4 +39,5 @@ public class Prestamo {
     public void setFechaDevolucion(String fechaDevolucion) {
         this.fechaDevolucion = fechaDevolucion;
     }
+
 }

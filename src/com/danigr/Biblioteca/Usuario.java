@@ -57,4 +57,5 @@ public class Usuario {
     public void setPoblacion(String poblacion) {
         this.poblacion = poblacion;
     }
+
 }
