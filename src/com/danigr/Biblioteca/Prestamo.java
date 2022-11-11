@@ -2,16 +2,16 @@ package com.danigr.Biblioteca;
 
 public class Prestamo {
 
-    private String id;
+    private Integer id;
     private String fechaPrestamo;
     private String fechaDevolucion;
 
 
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

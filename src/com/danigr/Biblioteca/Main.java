@@ -5,70 +5,70 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Iniciando...");
 
-        Autor a = new Autor();
-        a.setNombre("");
-        a.setApellidos("");
-        a.setFechaNacimiento("");
-        a.setLocalidadNacimiento("");
+        Autor autor = new Autor();
+        autor.setNombre("");
+        autor.setApellidos("");
+        autor.setFechaNacimiento("");
+        autor.setLocalidadNacimiento("");
 
-        System.out.println(a.getNombre());
-        System.out.println(a.getApellidos());
-        System.out.println(a.getFechaNacimiento());
-        System.out.println(a.getLocalidadNacimiento());
-
-
-        Genero aa = new Genero();
-
-        aa.setId(1);
-        aa.setNombre("");
-        aa.setDescripcion("");
-
-        System.out.println(aa.getId());
-        System.out.println(aa.getNombre());
-        System.out.println(aa.getDescripcion());
+        System.out.println(autor.getNombre());
+        System.out.println(autor.getApellidos());
+        System.out.println(autor.getFechaNacimiento());
+        System.out.println(autor.getLocalidadNacimiento());
 
 
-        Libro aaa = new Libro();
+        Genero genero = new Genero();
 
-        aaa.setTitulo("");
-        aaa.setIsbn(1);
-        aaa.setAutor("");
-        aaa.setGenero("");
-        aaa.setFechaPublicacion("");
+        genero.setId(1);
+        genero.setNombre("");
+        genero.setDescripcion("");
 
-        System.out.println(aaa.getTitulo());
-        System.out.println(aaa.getIsbn());
-        System.out.println(aaa.getAutor());
-        System.out.println(aaa.getGenero());
-        System.out.println(aaa.getFechaPublicacion());
+        System.out.println(genero.getId());
+        System.out.println(genero.getNombre());
+        System.out.println(genero.getDescripcion());
 
 
-        Prestamo aaaa = new Prestamo();
+        Libro libro = new Libro();
 
-        aaaa.setId(1);
-        aaaa.setFechaPrestamo("");
-        aaaa.setFechaDevolucion("");
+        libro.setTitulo("");
+        libro.setIsbn(1);
+        libro.setAutor(autor);
+        libro.setGenero(genero);
+        libro.setFechaPublicacion("");
 
-        System.out.println(aaaa.setId());
-        System.out.println(aaaa.getFechaPrestamo());
-        System.out.println(aaaa.getFechaDevolucion());
+        System.out.println(libro.getTitulo());
+        System.out.println(libro.getIsbn());
+        System.out.println(libro.getAutor());
+        System.out.println(libro.getGenero());
+        System.out.println(libro.getFechaPublicacion());
 
 
-        Usuario aaaaa = new Usuario();
+        Prestamo prestamo = new Prestamo();
 
-        aaaaa.setNombre("");
-        aaaaa.setApellidos("");
-        aaaaa.setDni("");
-        aaaaa.setTelefono("");
-        aaaaa.setDireccion("");
-        aaaaa.setPoblacion("");
+        prestamo.setId(1);
+        prestamo.setFechaPrestamo("");
+        prestamo.setFechaDevolucion("");
 
-        System.out.println(aaaaa.getNombre());
-        System.out.println(aaaaa.getApellidos());
-        System.out.println(aaaaa.getDni());
-        System.out.println(aaaaa.getTelefono());
-        System.out.println(aaaaa.getDireccion());
-        System.out.println(aaaaa.getPoblacion());
+        System.out.println(prestamo.getId());
+        System.out.println(prestamo.getFechaPrestamo());
+        System.out.println(prestamo.getFechaDevolucion());
+
+
+        Usuario usuario = new Usuario();
+
+        usuario.setNombre("");
+        usuario.setApellidos("");
+        usuario.setDni("");
+        usuario.setTelefono("");
+        usuario.setDireccion("");
+        usuario.setPoblacion("");
+
+        System.out.println(usuario.getNombre());
+        System.out.println(usuario.getApellidos());
+        System.out.println(usuario.getDni());
+        System.out.println(usuario.getTelefono());
+        System.out.println(usuario.getDireccion());
+        System.out.println(usuario.getPoblacion());
 
 
     }
